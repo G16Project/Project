@@ -144,3 +144,7 @@ test integration
 // Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-07 15:23:16
 quit
 // Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-07 15:24:17
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2555-03-07 17:12:49
+focus --class ~.entity.NoteOfLeave 
+focus --class ~.entity.NoteOfLeave 
+test integration 

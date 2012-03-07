@@ -1,12 +1,12 @@
 <aspectj>
 <aspects>
-<aspect name="com.source.project.domain.EmployeeDataOnDemand_Roo_DataOnDemand"/>
 <aspect name="com.source.project.entity.LoanIntegrationTest_Roo_Configurable"/>
-<aspect name="com.source.project.domain.EmployeeIntegrationTest_Roo_Configurable"/>
 <aspect name="com.source.project.entity.LoanDataOnDemand_Roo_Configurable"/>
-<aspect name="com.source.project.domain.EmployeeDataOnDemand_Roo_Configurable"/>
-<aspect name="com.source.project.entity.LoanIntegrationTest_Roo_IntegrationTest"/>
 <aspect name="com.source.project.entity.LoanDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.source.project.domain.EmployeeDataOnDemand_Roo_Configurable"/>
+<aspect name="com.source.project.domain.EmployeeDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.source.project.entity.LoanIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.source.project.domain.EmployeeIntegrationTest_Roo_Configurable"/>
 <aspect name="com.source.project.domain.EmployeeIntegrationTest_Roo_IntegrationTest"/>
 </aspects>
 </aspectj>

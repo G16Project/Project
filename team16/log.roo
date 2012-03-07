@@ -148,3 +148,8 @@ quit
 focus --class ~.entity.NoteOfLeave 
 focus --class ~.entity.NoteOfLeave 
 test integration 
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2555-03-07 18:53:46
+focus --class ~.domain.TypeOfLeave
+// [failed] test integration 
+focus --class ~.entity.NoteOfLeave
+test integration 

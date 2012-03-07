@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_source_project_entity_NoteOfLeave" items="${noteofleaves}" z="tTIAp/Eeh/a1Lu8EHA0nLOAQUgw=">
+        <table:table data="${noteofleaves}" id="l_com_source_project_entity_NoteOfLeave" path="/noteofleaves" z="V1Sx1PmcDWGM0kkZyxMsLxzhhhQ=">
+            <table:column id="c_com_source_project_entity_NoteOfLeave_Infomation" property="infomation" z="UgE2T0eNi8Y7yom86OtKRIonGQU="/>
+            <table:column id="c_com_source_project_entity_NoteOfLeave_ePosition" property="EPosition" z="ztRBQcGIGBUZKz5IdDS1fj3d1jk="/>
+            <table:column id="c_com_source_project_entity_NoteOfLeave_typeOfLeave" property="typeOfLeave" z="HUjp+HKcU0PkgnIRZTMREHx6dJI="/>
+            <table:column id="c_com_source_project_entity_NoteOfLeave_Phone" property="phone" z="GBJ1YBBMzqF4DV0ZIV+5eRcUlSo="/>
+            <table:column date="true" dateTimePattern="${noteOfLeave_thedate_date_format}" id="c_com_source_project_entity_NoteOfLeave_TheDate" property="theDate" z="Vo4OKlC72b/Lza44UPNhv6+MBuY="/>
+            <table:column id="c_com_source_project_entity_NoteOfLeave_Reason" property="reason" z="TApXIEhlTcJFMQs50BcQhtnTVD4="/>
+        </table:table>
+    </page:list>
+</div>

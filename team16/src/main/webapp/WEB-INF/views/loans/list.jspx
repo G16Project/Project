@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_source_project_entity_Loan" items="${loans}" z="8ea3gvVhH9VZcE5m3CTQ4l78yPg=">
+        <table:table data="${loans}" id="l_com_source_project_entity_Loan" path="/loans" z="OoCeERgWrhXLPye+BGPaKTMyEuA=">
+            <table:column id="c_com_source_project_entity_Loan_information" property="information" z="ipS1cKR1r62JEzkR3Mj/gBvd1Y4="/>
+            <table:column id="c_com_source_project_entity_Loan_ePosition" property="EPosition" z="uasEOx1aJ0NUzb9qaMme/TsrlpA="/>
+            <table:column id="c_com_source_project_entity_Loan_address" property="address" z="QyTWsaB6UPld0uYQUHdWQlO8dZA="/>
+            <table:column id="c_com_source_project_entity_Loan_moneyLoan" property="moneyLoan" z="I/UXrBtw8tbenqcNJDQjlJDgrwI="/>
+            <table:column id="c_com_source_project_entity_Loan_accountNumber" property="accountNumber" z="VRWmSmS8r291Y7Kn7heuV+fU5zU="/>
+            <table:column date="true" dateTimePattern="${loan_dateloan_date_format}" id="c_com_source_project_entity_Loan_dateLoan" property="dateLoan" z="D0ItIWVY8NTDMFGF5Nj11/1BESs="/>
+        </table:table>
+    </page:list>
+</div>

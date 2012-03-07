@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_source_project_entity_Loan" modelAttribute="loan" path="/loans" versionField="Version" z="3ed3y6R87x6AKKi/JQwXAI47Wg8=">
+        <field:select field="information" id="c_com_source_project_entity_Loan_information" itemValue="id_" items="${employees}" path="/employees" z="55dKbY37tZEHftItxhktQY7+fUU="/>
+        <field:select field="ePosition" id="c_com_source_project_entity_Loan_ePosition" items="${epositions}" path="epositions" z="0fjHtrtibEeNty0sSuwlOz6YSpA="/>
+        <field:textarea field="address" id="c_com_source_project_entity_Loan_address" z="RJFSJQ+zqLBF4siC9ld7Nwp1wPQ="/>
+        <field:input field="moneyLoan" id="c_com_source_project_entity_Loan_moneyLoan" required="true" z="/wBoeRxVDXMirxAxWBskYohirIk="/>
+        <field:input field="accountNumber" id="c_com_source_project_entity_Loan_accountNumber" required="true" z="pmYf2nGVQOt4G4Z3SDqOG600mMI="/>
+        <field:datetime dateTimePattern="${loan_dateloan_date_format}" field="dateLoan" id="c_com_source_project_entity_Loan_dateLoan" required="true" z="/QM+k2OABBN78ro0t8+APEpgE1A="/>
+        <field:input field="reason" id="c_com_source_project_entity_Loan_reason" required="true" z="e388nJDS1lCb4Bm5mUmg5sEJIz8="/>
+        <field:checkbox field="approvedByFinance_Department" id="c_com_source_project_entity_Loan_approvedByFinance_Department" z="IPDkh2+fnlXN0nlE1RFflU9+ER8="/>
+        <field:checkbox field="approvedByHead_Finance_Department" id="c_com_source_project_entity_Loan_approvedByHead_Finance_Department" z="3A5GcyzuuNOlvKepx6guW0lt030="/>
+        <field:checkbox field="approvedByManager" id="c_com_source_project_entity_Loan_approvedByManager" z="03O1aWUeCkB6m2eoW+pfvsyq4qg="/>
+    </form:update>
+</div>

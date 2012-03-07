@@ -1,0 +1,146 @@
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-06 21:34:35
+project --topLevelPackage com.source.project
+persistence setup --provider HIBERNATE --database H2_IN_MEMORY 
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-06 21:35:37
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-06 22:28:42
+enum type --class ~.domain.timeForJob
+enum constant --name time_1_to_3_months
+enum constant --name time_3_to_6_months
+enum constant --name time_1_year
+enum constant --name time_1_to_3_years
+enum constant --name time_3_to_6_years
+enum constant --name time_more_6_years
+exit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-06 22:34:24
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2555-03-06 22:49:27
+enum type --class ~.domain.ePosition
+enum constant --name Employee
+enum constant --name Finance_Department
+enum constant --name Head_Finance_Department
+enum constant --name Head_Human_Department
+enum constant --name Head_Section
+enum constant --name Manager
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2555-03-06 22:51:07
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-06 23:04:16
+enum type --class ~.domain.Rescue
+enum constant --name Accidents 
+enum constant --name Death
+enum constant --name Natural_Disaster
+enum type --class ~.domain.TypeOfLeave
+enum constant --name Sick_Leave
+enum constant --name Business_Leave
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-06 23:08:41
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2555-03-06 23:25:52
+enum type --class ~.domain.welfare
+enum constant --name Finance_Depertment
+enum constant --name Requisition_Allowance
+enum constant --name Loan
+enum constant --name Rescue_Leave
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2555-03-06 23:27:23
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-06 23:32:02
+entity jpa --class ~.domain.Employee
+field string --fieldName id --notNull 
+field string --fieldName name --notNull 
+field string --fieldName lastName --notNull 
+entity jpa --class ~.domain.TranferOfFunds
+field reference --fieldName idNameSender --type ~.domain.Employee
+field enum --fieldName PositionSender --type ~.domain.EPosition
+field reference --fieldName idNameReceiver --type ~.domain.Employee
+field enum --fieldName PositionReceiver --type ~.domain.EPosition
+field enum --fieldName welfare --type ~.domain.Welfare
+field number --fieldName money --type java.lang.Float
+field string --fieldName AccountID --notNull 
+field boolean --fieldName Approved
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-06 23:38:11
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2555-03-06 23:49:06
+entity jpa --class ~.entity.NoteOfLeave
+field reference --fieldName Infomation --type ~.domain.Employee
+field enum --fieldName ePosition --type ~.entity.ePosition
+field enum --fieldName typeOfLeave --type ~.entity.TypeOfLeave
+field string --fieldName Phone --notNull
+field date --fieldName TheDate --type java.util.Date
+field string --fieldName Reason --sizeMax 500
+field string --fieldName PeriodOfLeave
+field boolean --fieldName approvedByHead_Section
+field boolean --fieldName approvedByHead_Human_Department
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2555-03-06 23:51:24
+
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-07 00:18:07
+entity jpa --class ~.entity.FinanceDepartment
+field reference --fieldName Information --type ~.domain.Employee
+field enum --fieldName ePosition --type ~.domain.EPosition
+field date --fieldName startJob --type java.util.Date
+field enum --fieldName timeForJob --type ~.domain.TimeForJob
+field number --fieldName Bonuses --type java.lang.Float
+field string --fieldName accountNumber --notNull 
+field boolean --fieldName approveBymanager
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-07 00:23:56
+
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2555-03-07 00:21:29
+entity jpa --class ~.entity.RequisitionAllowance
+field reference --fieldName information --type ~.domain.Employee
+field enum --fieldName ePosition --type ~.entity.ePosition
+field date --fieldName dateWork --type java.util.Date
+field string --fieldName timeWork --notNull --sizeMin 2
+field string --fieldName job --notNull --sizeMin 2
+field number --fieldName money --type java.lang.Float
+field date --fieldName dateNow --type java.util.Date
+field boolean --fieldName approvedByFinance_Department
+field boolean --fieldName approvedByHead_Finance_Department
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2555-03-07 00:23:53
+
+
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-07 00:34:00
+entity jpa --class ~.entity.RescueLeave
+field reference --fieldName information --type ~.domain.Employee
+field enum --fieldName ePosition --type ~.domain.EPosition
+field string --fieldName Phone --notNull 
+field string --fieldName Address --sizeMax 70
+field date --fieldName TimeDate --type java.util.Date
+field enum --fieldName RescueType --type ~.domain.Rescue
+field string --fieldName Reason --sizeMax 100
+field boolean --fieldName ApproveByFinance_Department
+field boolean --fieldName ApproveByManager
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-07 00:40:51
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-07 01:03:02
+entity jpa --class ~entity.Loan
+field reference --fieldName information --type ~.domain.Employee
+field enum --fieldName ePosition --type ~.domain.ePosition
+field string --fieldName address --sizeMax 500
+field string --fieldName moneyLoan --notNull
+field string --fieldName accountNumber --notNull
+field date --fieldName dateLoan --type java.util.Date --notNull
+field string --fieldName reason --notNull
+field boolean --fieldName approvedByFinance_Department
+field boolean --fieldName approvedByHead_Finance_Department
+field boolean --fieldName approvedByManager  
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-07 01:05:20
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-07 02:28:47
+web mvc setup
+web mvc all --package ~.web
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-07 02:30:08
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-07 02:33:44
+security setup
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-07 02:34:55
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-07 10:39:11
+test integration --entity ~.domain.Employee
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-07 10:49:07
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-07 14:52:13
+focus --class ~.entity.Loan
+test integration 
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-07 15:01:10
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-03-07 15:23:16
+quit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-03-07 15:24:17

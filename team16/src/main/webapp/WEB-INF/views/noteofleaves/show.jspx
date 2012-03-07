@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_source_project_entity_NoteOfLeave" object="${noteofleave}" path="/noteofleaves" z="8tePW4CzPjwRShqfrClHwrvFT3A=">
+        <field:display field="infomation" id="s_com_source_project_entity_NoteOfLeave_Infomation" object="${noteofleave}" z="3vrxSyUBBUfrkJwbqhSp4hNXPbc="/>
+        <field:display field="EPosition" id="s_com_source_project_entity_NoteOfLeave_ePosition" object="${noteofleave}" z="pz/vr0jEDdbByCdKketDWvLofx8="/>
+        <field:display field="typeOfLeave" id="s_com_source_project_entity_NoteOfLeave_typeOfLeave" object="${noteofleave}" z="ByfCLCsR6dAuG1Y42bBR9DIgh7k="/>
+        <field:display field="phone" id="s_com_source_project_entity_NoteOfLeave_Phone" object="${noteofleave}" z="IrXwzyuSca6kmkOzPTVtic4ZkPU="/>
+        <field:display date="true" dateTimePattern="${noteOfLeave_thedate_date_format}" field="theDate" id="s_com_source_project_entity_NoteOfLeave_TheDate" object="${noteofleave}" z="KREyH8YPheFwGKNE9Xpy3P6MXco="/>
+        <field:display field="reason" id="s_com_source_project_entity_NoteOfLeave_Reason" object="${noteofleave}" z="x+E/FBiHcZwKDS2xyTDxYLWm6sI="/>
+        <field:display field="periodOfLeave" id="s_com_source_project_entity_NoteOfLeave_PeriodOfLeave" object="${noteofleave}" z="3yHvBfYsUDZBydVRmBGWgb4UjxM="/>
+        <field:display field="approvedByHead_Section" id="s_com_source_project_entity_NoteOfLeave_approvedByHead_Section" object="${noteofleave}" z="Z+aobApA0aEIWLoBISI04g6gKvA="/>
+        <field:display field="approvedByHead_Human_Department" id="s_com_source_project_entity_NoteOfLeave_approvedByHead_Human_Department" object="${noteofleave}" z="v2rlp3mnd/1wGLF6AnoMZMCb0q4="/>
+    </page:show>
+</div>

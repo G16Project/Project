@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="financedepartments/list">
+        <put-attribute name="body" value="/WEB-INF/views/financedepartments/list.jspx"/>
+    </definition>
+<definition extends="default" name="financedepartments/show">
+        <put-attribute name="body" value="/WEB-INF/views/financedepartments/show.jspx"/>
+    </definition>
+<definition extends="default" name="financedepartments/create">
+        <put-attribute name="body" value="/WEB-INF/views/financedepartments/create.jspx"/>
+    </definition>
+<definition extends="default" name="financedepartments/update">
+        <put-attribute name="body" value="/WEB-INF/views/financedepartments/update.jspx"/>
+    </definition>
+</tiles-definitions>

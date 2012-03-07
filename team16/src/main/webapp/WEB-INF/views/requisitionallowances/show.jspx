@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_source_project_entity_RequisitionAllowance" object="${requisitionallowance}" path="/requisitionallowances" z="EvEdNzcWegsBnz2sU3B96YoKVdc=">
+        <field:display field="information" id="s_com_source_project_entity_RequisitionAllowance_information" object="${requisitionallowance}" z="gDEc90mkQt+Jz+6aLOdemr5K3o0="/>
+        <field:display field="EPosition" id="s_com_source_project_entity_RequisitionAllowance_ePosition" object="${requisitionallowance}" z="l/fbx0P7X+D/LhkE0XWW0VvhNug="/>
+        <field:display date="true" dateTimePattern="${requisitionAllowance_datework_date_format}" field="dateWork" id="s_com_source_project_entity_RequisitionAllowance_dateWork" object="${requisitionallowance}" z="2UTcgzBbC32L++FG3V0+0tCqskA="/>
+        <field:display field="timeWork" id="s_com_source_project_entity_RequisitionAllowance_timeWork" object="${requisitionallowance}" z="cIGn6KTeBSXlEzrcW93DrHSV1vE="/>
+        <field:display field="job" id="s_com_source_project_entity_RequisitionAllowance_job" object="${requisitionallowance}" z="kleHdDeE9PljqvjXHCTkk+/MVVw="/>
+        <field:display field="money" id="s_com_source_project_entity_RequisitionAllowance_money" object="${requisitionallowance}" z="4p6vJfFI/RkFXz9FM0N1gv1xIeA="/>
+        <field:display date="true" dateTimePattern="${requisitionAllowance_datenow_date_format}" field="dateNow" id="s_com_source_project_entity_RequisitionAllowance_dateNow" object="${requisitionallowance}" z="gRVFyUeQkIdpQVXBSPTUZH20GHc="/>
+        <field:display field="approvedByFinance_Department" id="s_com_source_project_entity_RequisitionAllowance_approvedByFinance_Department" object="${requisitionallowance}" z="3H6XpdxoBwv7fEjhzDolCMxbtSM="/>
+        <field:display field="approvedByHead_Finance_Department" id="s_com_source_project_entity_RequisitionAllowance_approvedByHead_Finance_Department" object="${requisitionallowance}" z="7teW6u4qMqUrIx/i3j+bwFrYqsY="/>
+    </page:show>
+</div>

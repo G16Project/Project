@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_source_project_entity_RequisitionAllowance" modelAttribute="requisitionAllowance" path="/requisitionallowances" render="${empty dependencies}" z="umKLhVJ2moZFco+/TwRV68IUNmI=">
+        <field:select field="information" id="c_com_source_project_entity_RequisitionAllowance_information" itemValue="id_" items="${employees}" path="/employees" z="hlQ1/fwQ5EuFX8tQ0CbX/jDyf34="/>
+        <field:select field="ePosition" id="c_com_source_project_entity_RequisitionAllowance_ePosition" items="${epositions}" path="epositions" z="npAmtSV8RIc11c3UF0mL4bJkGZI="/>
+        <field:datetime dateTimePattern="${requisitionAllowance_datework_date_format}" field="dateWork" id="c_com_source_project_entity_RequisitionAllowance_dateWork" z="TFdi0XaIvrOM6JUKpBfCx4W6Bzo="/>
+        <field:input field="timeWork" id="c_com_source_project_entity_RequisitionAllowance_timeWork" min="2" required="true" z="oFfpf4CMvJ4cdCvdAmvo5BDLu/o="/>
+        <field:input field="job" id="c_com_source_project_entity_RequisitionAllowance_job" min="2" required="true" z="moV4oaHyBTOKadxbo6k2NPkjPUc="/>
+        <field:input field="money" id="c_com_source_project_entity_RequisitionAllowance_money" validationMessageCode="field_invalid_number" z="Zp7+mf9lNcrM1XOElr3xG8+AI20="/>
+        <field:datetime dateTimePattern="${requisitionAllowance_datenow_date_format}" field="dateNow" id="c_com_source_project_entity_RequisitionAllowance_dateNow" z="DMmI7LnGSKOczwYRbWuUQ5Fa0KI="/>
+        <field:checkbox field="approvedByFinance_Department" id="c_com_source_project_entity_RequisitionAllowance_approvedByFinance_Department" z="reC8x/z406d6IWfPnThq5yxJj9I="/>
+        <field:checkbox field="approvedByHead_Finance_Department" id="c_com_source_project_entity_RequisitionAllowance_approvedByHead_Finance_Department" z="+zezxTnvQ5LWxHJlnjqW0MwII6k="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_source_project_entity_RequisitionAllowance" render="${not empty dependencies}" z="3qR0ShO8dU8OCAoZqkann+41G4Q="/>
+</div>

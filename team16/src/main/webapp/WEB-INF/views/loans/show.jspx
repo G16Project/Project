@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_source_project_entity_Loan" object="${loan}" path="/loans" z="kvKcwWcjcnzi1OygiQMXQK/EgQk=">
+        <field:display field="information" id="s_com_source_project_entity_Loan_information" object="${loan}" z="WrxU/EGEeGXzHUr28WAQFvMBoYo="/>
+        <field:display field="EPosition" id="s_com_source_project_entity_Loan_ePosition" object="${loan}" z="yFfZRyacCISl0CXezj4VdKQltjc="/>
+        <field:display field="address" id="s_com_source_project_entity_Loan_address" object="${loan}" z="aY98uZk6sfvPRlrRiIqQ/B2UXcI="/>
+        <field:display field="moneyLoan" id="s_com_source_project_entity_Loan_moneyLoan" object="${loan}" z="DGD43DKTdGYgSB4g3pktKUKSpu4="/>
+        <field:display field="accountNumber" id="s_com_source_project_entity_Loan_accountNumber" object="${loan}" z="Dw74MGe9+GSEkH+oDwvPmDM8+aE="/>
+        <field:display date="true" dateTimePattern="${loan_dateloan_date_format}" field="dateLoan" id="s_com_source_project_entity_Loan_dateLoan" object="${loan}" z="QarQVi3DlsIAEG92SicUhPSUeL0="/>
+        <field:display field="reason" id="s_com_source_project_entity_Loan_reason" object="${loan}" z="51BbRlgvbOgjHeaGrcopNjymbSw="/>
+        <field:display field="approvedByFinance_Department" id="s_com_source_project_entity_Loan_approvedByFinance_Department" object="${loan}" z="W7hDaLQlSERS7JNLYSeZKqV+SlQ="/>
+        <field:display field="approvedByHead_Finance_Department" id="s_com_source_project_entity_Loan_approvedByHead_Finance_Department" object="${loan}" z="SpbClWSK5z3YnJPF2UpckMpTpmk="/>
+        <field:display field="approvedByManager" id="s_com_source_project_entity_Loan_approvedByManager" object="${loan}" z="Xc/jvhohbDiHitUKWGhy7jv81nE="/>
+    </page:show>
+</div>

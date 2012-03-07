@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_source_project_entity_RescueLeave" items="${rescueleaves}" z="jUUbZWcj48WKcik6vk5pjZoSXHo=">
+        <table:table data="${rescueleaves}" id="l_com_source_project_entity_RescueLeave" path="/rescueleaves" z="Lr5W3K6o8TQHH4AVvJ6o4xpoqfc=">
+            <table:column id="c_com_source_project_entity_RescueLeave_information" property="information" z="J+NQQ2/2ns9HPkxq2UBgkToGTsQ="/>
+            <table:column id="c_com_source_project_entity_RescueLeave_ePosition" property="EPosition" z="yN6qNybB+43ocPpfURkTdnP3nOk="/>
+            <table:column id="c_com_source_project_entity_RescueLeave_Phone" property="phone" z="xsn/+ZZjS797ixc0LEpV7RGqxrA="/>
+            <table:column id="c_com_source_project_entity_RescueLeave_Address" property="address" z="/leiNUYKCYL3TfESB1lW2MgxbfI="/>
+            <table:column date="true" dateTimePattern="${rescueLeave_timedate_date_format}" id="c_com_source_project_entity_RescueLeave_TimeDate" property="timeDate" z="gyXUyzNpOb2RbwErBIcNN2NR3qk="/>
+            <table:column id="c_com_source_project_entity_RescueLeave_RescueType" property="rescueType" z="T7b1RljAp3SThyTIpyCAipk8mbc="/>
+        </table:table>
+    </page:list>
+</div>

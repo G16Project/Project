@@ -1,0 +1,48 @@
+<aspectj>
+<aspects>
+<aspect name="com.source.project.domain.TranferOfFunds_Roo_Configurable"/>
+<aspect name="com.source.project.entity.RescueLeave_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.source.project.entity.RescueLeave_Roo_JavaBean"/>
+<aspect name="com.source.project.web.EmployeeController_Roo_Controller"/>
+<aspect name="com.source.project.entity.RequisitionAllowance_Roo_ToString"/>
+<aspect name="com.source.project.entity.FinanceDepartment_Roo_JavaBean"/>
+<aspect name="com.source.project.entity.RequisitionAllowance_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.source.project.entity.Loan_Roo_Configurable"/>
+<aspect name="com.source.project.entity.RequisitionAllowance_Roo_JavaBean"/>
+<aspect name="com.source.project.entity.NoteOfLeave_Roo_ToString"/>
+<aspect name="com.source.project.web.FinanceDepartmentController_Roo_Controller"/>
+<aspect name="com.source.project.web.RequisitionAllowanceController_Roo_Controller"/>
+<aspect name="com.source.project.web.RescueLeaveController_Roo_Controller"/>
+<aspect name="com.source.project.entity.RequisitionAllowance_Roo_Jpa_Entity"/>
+<aspect name="com.source.project.domain.TranferOfFunds_Roo_JavaBean"/>
+<aspect name="com.source.project.entity.Loan_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.source.project.domain.TranferOfFunds_Roo_ToString"/>
+<aspect name="com.source.project.entity.NoteOfLeave_Roo_Configurable"/>
+<aspect name="com.source.project.entity.NoteOfLeave_Roo_Jpa_Entity"/>
+<aspect name="com.source.project.entity.RescueLeave_Roo_Configurable"/>
+<aspect name="com.source.project.entity.RequisitionAllowance_Roo_Configurable"/>
+<aspect name="com.source.project.entity.Loan_Roo_ToString"/>
+<aspect name="com.source.project.entity.FinanceDepartment_Roo_Configurable"/>
+<aspect name="com.source.project.entity.FinanceDepartment_Roo_ToString"/>
+<aspect name="com.source.project.entity.RescueLeave_Roo_ToString"/>
+<aspect name="com.source.project.entity.FinanceDepartment_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.source.project.domain.TranferOfFunds_Roo_Jpa_Entity"/>
+<aspect name="com.source.project.domain.Employee_Roo_JavaBean"/>
+<aspect name="com.source.project.web.NoteOfLeaveController_Roo_Controller"/>
+<aspect name="com.source.project.entity.RescueLeave_Roo_Jpa_Entity"/>
+<aspect name="com.source.project.entity.FinanceDepartment_Roo_Jpa_Entity"/>
+<aspect name="com.source.project.web.TranferOfFundsController_Roo_Controller"/>
+<aspect name="com.source.project.domain.Employee_Roo_ToString"/>
+<aspect name="com.source.project.domain.TranferOfFunds_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.source.project.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.source.project.web.LoanController_Roo_Controller"/>
+<aspect name="com.source.project.entity.NoteOfLeave_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.source.project.entity.Loan_Roo_Jpa_Entity"/>
+<aspect name="com.source.project.domain.Employee_Roo_Configurable"/>
+<aspect name="com.source.project.domain.Employee_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.source.project.entity.NoteOfLeave_Roo_JavaBean"/>
+<aspect name="com.source.project.entity.Loan_Roo_JavaBean"/>
+<aspect name="com.source.project.domain.Employee_Roo_Jpa_Entity"/>
+</aspects>
+</aspectj>
+

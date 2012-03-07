@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_source_project_domain_TranferOfFunds" items="${tranferoffundses}" z="ETB36JPxtpeXLZ2dBntikdX1SMQ=">
+        <table:table data="${tranferoffundses}" id="l_com_source_project_domain_TranferOfFunds" path="/tranferoffundses" z="TwrNI2Pf5rs7dMwVq3MXa1SeJZg=">
+            <table:column id="c_com_source_project_domain_TranferOfFunds_idNameSender" property="idNameSender" z="4kwONBHi+BBOmhcUi26U8cihwcI="/>
+            <table:column id="c_com_source_project_domain_TranferOfFunds_PositionSender" property="positionSender" z="z3Uk6n63BhdA/KR2FQ7lGocDv1U="/>
+            <table:column id="c_com_source_project_domain_TranferOfFunds_idNameReceiver" property="idNameReceiver" z="YQYBeQfhtaiLigl5i1/FcbccL+o="/>
+            <table:column id="c_com_source_project_domain_TranferOfFunds_PositionReceiver" property="positionReceiver" z="h7uRAJtPRp+sLbnNq6WgGzs/ICA="/>
+            <table:column id="c_com_source_project_domain_TranferOfFunds_welfare" property="welfare" z="PtyUihiAZbazFvo2h5gLS32KlkU="/>
+            <table:column id="c_com_source_project_domain_TranferOfFunds_money" property="money" z="V1clxmG+VwmZOnbIeTJohOuwXd0="/>
+        </table:table>
+    </page:list>
+</div>

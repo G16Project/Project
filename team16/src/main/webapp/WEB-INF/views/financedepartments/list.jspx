@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_source_project_entity_FinanceDepartment" items="${financedepartments}" z="7DZgqq0QYpfqRhKMSV+wFkOpwJ0=">
+        <table:table data="${financedepartments}" id="l_com_source_project_entity_FinanceDepartment" path="/financedepartments" z="HGNJJWAmGLI3PUIwT9CAs/FpyYA=">
+            <table:column id="c_com_source_project_entity_FinanceDepartment_Information" property="information" z="F7tUdkyXrzt7qc7k7PfNQUodDV4="/>
+            <table:column id="c_com_source_project_entity_FinanceDepartment_ePosition" property="EPosition" z="LoLhw2OxxhQLbsdbNCOTgXQOwLY="/>
+            <table:column date="true" dateTimePattern="${financeDepartment_startjob_date_format}" id="c_com_source_project_entity_FinanceDepartment_startJob" property="startJob" z="A37JDT1fkX2HFSh9vdrs4qVM5Wk="/>
+            <table:column id="c_com_source_project_entity_FinanceDepartment_timeForJob" property="timeForJob" z="v7coA1g7tfS4XJz01wiANS9kd1U="/>
+            <table:column id="c_com_source_project_entity_FinanceDepartment_Bonuses" property="bonuses" z="bPw1aK51RfUXXEO4+qa9ZDnQpNQ="/>
+            <table:column id="c_com_source_project_entity_FinanceDepartment_accountNumber" property="accountNumber" z="zZ+/YttEQ+C2pLRwA9AIb+FMfSM="/>
+        </table:table>
+    </page:list>
+</div>

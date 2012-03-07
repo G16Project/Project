@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_source_project_domain_TranferOfFunds" object="${tranferoffunds}" path="/tranferoffundses" z="5+EdPSI+VStg3U7nTnTmg4RRysg=">
+        <field:display field="idNameSender" id="s_com_source_project_domain_TranferOfFunds_idNameSender" object="${tranferoffunds}" z="mv/pGTHF6wP2ueEqxnFX/EdrBSI="/>
+        <field:display field="positionSender" id="s_com_source_project_domain_TranferOfFunds_PositionSender" object="${tranferoffunds}" z="1icMB9kErg1grJFUhuXvJhyxWqk="/>
+        <field:display field="idNameReceiver" id="s_com_source_project_domain_TranferOfFunds_idNameReceiver" object="${tranferoffunds}" z="eAH02TPjBYCabHyV81UaX1qy+rc="/>
+        <field:display field="positionReceiver" id="s_com_source_project_domain_TranferOfFunds_PositionReceiver" object="${tranferoffunds}" z="H/RKG1EGpcNckZlgca3x3OWzJ5k="/>
+        <field:display field="welfare" id="s_com_source_project_domain_TranferOfFunds_welfare" object="${tranferoffunds}" z="F0X88kotsasZ4jO4m9d98CrxsXQ="/>
+        <field:display field="money" id="s_com_source_project_domain_TranferOfFunds_money" object="${tranferoffunds}" z="6r5iFLFFsmsjRcVJeMTi0bWNdhw="/>
+        <field:display field="accountID" id="s_com_source_project_domain_TranferOfFunds_AccountID" object="${tranferoffunds}" z="n03k9+onqmz290qp8IKsIuIPJ/k="/>
+        <field:display field="approved" id="s_com_source_project_domain_TranferOfFunds_Approved" object="${tranferoffunds}" z="LKDOLWsmYwJDw+AlPjx5qIY0Rvo="/>
+    </page:show>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_source_project_entity_FinanceDepartment" object="${financedepartment}" path="/financedepartments" z="t1JWMA849WQEo2n/CpVaMOwoXks=">
+        <field:display field="information" id="s_com_source_project_entity_FinanceDepartment_Information" object="${financedepartment}" z="/iGiGSB/FfwGq+AyBu79waELqlM="/>
+        <field:display field="EPosition" id="s_com_source_project_entity_FinanceDepartment_ePosition" object="${financedepartment}" z="SNcDcefxy9Nmw9/gHYjI5xbwg7A="/>
+        <field:display date="true" dateTimePattern="${financeDepartment_startjob_date_format}" field="startJob" id="s_com_source_project_entity_FinanceDepartment_startJob" object="${financedepartment}" z="rE2hm7pIRYEzXRd+LcmZcH0S3cg="/>
+        <field:display field="timeForJob" id="s_com_source_project_entity_FinanceDepartment_timeForJob" object="${financedepartment}" z="oICmikDoiKB8De0Fq8euG/ctbBM="/>
+        <field:display field="bonuses" id="s_com_source_project_entity_FinanceDepartment_Bonuses" object="${financedepartment}" z="QsHWKDSBvhfh5rWlEzXb8HQF7iA="/>
+        <field:display field="accountNumber" id="s_com_source_project_entity_FinanceDepartment_accountNumber" object="${financedepartment}" z="x9dF/GgXpfwvneqlraQfA35YHhs="/>
+        <field:display field="approveBymanager" id="s_com_source_project_entity_FinanceDepartment_approveBymanager" object="${financedepartment}" z="GO7LY7KZ6YwNaLUjEhT0hZ+LL8c="/>
+    </page:show>
+</div>

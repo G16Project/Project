@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_source_project_entity_FinanceDepartment" modelAttribute="financeDepartment" path="/financedepartments" versionField="Version" z="C0MIUhU2PSUYqas/oNSdcAL180Y=">
+        <field:select field="Information" id="c_com_source_project_entity_FinanceDepartment_Information" itemValue="id_" items="${employees}" path="/employees" z="s/UGSgKl/j+zU0hld5Y9RiuvAyo="/>
+        <field:select field="ePosition" id="c_com_source_project_entity_FinanceDepartment_ePosition" items="${epositions}" path="epositions" z="O/tWAr2aJ4tn2U2IJWyLd+2HOwY="/>
+        <field:datetime dateTimePattern="${financeDepartment_startjob_date_format}" field="startJob" id="c_com_source_project_entity_FinanceDepartment_startJob" z="NFslVzSDQ7NSNnQLphfrt+fkxF4="/>
+        <field:select field="timeForJob" id="c_com_source_project_entity_FinanceDepartment_timeForJob" items="${timeforjobs}" path="timeforjobs" z="0LlxS+nXDGh+3zzogy1xMxLGrl0="/>
+        <field:input field="Bonuses" id="c_com_source_project_entity_FinanceDepartment_Bonuses" validationMessageCode="field_invalid_number" z="oo25G2HyKDpwyJa9qX6xNm0RXGQ="/>
+        <field:input field="accountNumber" id="c_com_source_project_entity_FinanceDepartment_accountNumber" required="true" z="CvxlOPBt/sy7DVu5+yGSyfpqA5Y="/>
+        <field:checkbox field="approveBymanager" id="c_com_source_project_entity_FinanceDepartment_approveBymanager" z="NT2KR3fhXbke1VKH9/xXBwBUwDM="/>
+    </form:update>
+</div>

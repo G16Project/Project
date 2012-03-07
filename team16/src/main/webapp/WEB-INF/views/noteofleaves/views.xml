@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="noteofleaves/list">
+        <put-attribute name="body" value="/WEB-INF/views/noteofleaves/list.jspx"/>
+    </definition>
+<definition extends="default" name="noteofleaves/show">
+        <put-attribute name="body" value="/WEB-INF/views/noteofleaves/show.jspx"/>
+    </definition>
+<definition extends="default" name="noteofleaves/create">
+        <put-attribute name="body" value="/WEB-INF/views/noteofleaves/create.jspx"/>
+    </definition>
+<definition extends="default" name="noteofleaves/update">
+        <put-attribute name="body" value="/WEB-INF/views/noteofleaves/update.jspx"/>
+    </definition>
+</tiles-definitions>

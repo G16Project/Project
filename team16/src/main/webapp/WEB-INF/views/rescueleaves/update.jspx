@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_source_project_entity_RescueLeave" modelAttribute="rescueLeave" path="/rescueleaves" versionField="Version" z="dSOjSAOB9cRo9faFQjDhM3fLMbk=">
+        <field:select field="information" id="c_com_source_project_entity_RescueLeave_information" itemValue="id_" items="${employees}" path="/employees" z="qTkEkhFJ4RtcoRbaKCl2bwMH8wc="/>
+        <field:select field="ePosition" id="c_com_source_project_entity_RescueLeave_ePosition" items="${epositions}" path="epositions" z="k3WaL59vHUp5gFR6xueGOvfQSvI="/>
+        <field:input field="Phone" id="c_com_source_project_entity_RescueLeave_Phone" required="true" z="ZqImkfXUszswLtxgaNIzZsCi+RY="/>
+        <field:textarea field="Address" id="c_com_source_project_entity_RescueLeave_Address" z="a/Hyl21sT/DegQlgyA8UH3UKMXE="/>
+        <field:datetime dateTimePattern="${rescueLeave_timedate_date_format}" field="TimeDate" id="c_com_source_project_entity_RescueLeave_TimeDate" z="aEb5ni7mHYnYEi8S4S4a9f+dfOQ="/>
+        <field:select field="RescueType" id="c_com_source_project_entity_RescueLeave_RescueType" items="${rescues}" path="rescues" z="YOJTMZ2HuTW2ZVlD0l0SnNPbT8A="/>
+        <field:textarea field="Reason" id="c_com_source_project_entity_RescueLeave_Reason" z="DREpyzdGzWBCOIlOAGvIJCjiwrk="/>
+        <field:checkbox field="ApproveByFinance_Department" id="c_com_source_project_entity_RescueLeave_ApproveByFinance_Department" z="BViWAi0g0+RTLBWqdnS0+Okjuy8="/>
+        <field:checkbox field="ApproveByManager" id="c_com_source_project_entity_RescueLeave_ApproveByManager" z="Rhf+JVQV/QFT5OQpiaN2JGn+Kf0="/>
+    </form:update>
+</div>

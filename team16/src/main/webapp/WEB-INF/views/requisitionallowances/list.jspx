@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_source_project_entity_RequisitionAllowance" items="${requisitionallowances}" z="Pv2OMvBeqE12T0LjmThi/PiNnZ4=">
+        <table:table data="${requisitionallowances}" id="l_com_source_project_entity_RequisitionAllowance" path="/requisitionallowances" z="1gSnnooD1MSU7kjHk+CAmIuVUu0=">
+            <table:column id="c_com_source_project_entity_RequisitionAllowance_information" property="information" z="+OqWfQCRTgmzhH2LrH++2hlOjH4="/>
+            <table:column id="c_com_source_project_entity_RequisitionAllowance_ePosition" property="EPosition" z="JDOZlQv5r+AU30OHRFUoMufOrH8="/>
+            <table:column date="true" dateTimePattern="${requisitionAllowance_datework_date_format}" id="c_com_source_project_entity_RequisitionAllowance_dateWork" property="dateWork" z="VxIpSIhI3GsJA9Ev8zE9em8n+jU="/>
+            <table:column id="c_com_source_project_entity_RequisitionAllowance_timeWork" property="timeWork" z="vNH3QQW86LnVrquRYGyMuOFRCsA="/>
+            <table:column id="c_com_source_project_entity_RequisitionAllowance_job" property="job" z="8QO58htwC2FgFOxedWD72N2x8dk="/>
+            <table:column id="c_com_source_project_entity_RequisitionAllowance_money" property="money" z="dd58JyNHeiX2DFD21CtNM6jkadI="/>
+        </table:table>
+    </page:list>
+</div>

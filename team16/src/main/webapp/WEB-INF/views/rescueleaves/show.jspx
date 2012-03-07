@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_source_project_entity_RescueLeave" object="${rescueleave}" path="/rescueleaves" z="f6m75JXRkOmaaLbptij30cudq7k=">
+        <field:display field="information" id="s_com_source_project_entity_RescueLeave_information" object="${rescueleave}" z="7B56Bjp3QBajR7XuT/uDMHVCK7g="/>
+        <field:display field="EPosition" id="s_com_source_project_entity_RescueLeave_ePosition" object="${rescueleave}" z="5HaVBvSfUnp+sA9K/qRJYsQL8cY="/>
+        <field:display field="phone" id="s_com_source_project_entity_RescueLeave_Phone" object="${rescueleave}" z="7oIufJ31NM+urZ+jRl1BtLfctYs="/>
+        <field:display field="address" id="s_com_source_project_entity_RescueLeave_Address" object="${rescueleave}" z="2vmzzy6zkh1vuqKrh4phnhVR4Ng="/>
+        <field:display date="true" dateTimePattern="${rescueLeave_timedate_date_format}" field="timeDate" id="s_com_source_project_entity_RescueLeave_TimeDate" object="${rescueleave}" z="tA3Iev9+3HYB+LiPh793IwW5LEc="/>
+        <field:display field="rescueType" id="s_com_source_project_entity_RescueLeave_RescueType" object="${rescueleave}" z="CZB3/qqCxUjTYVqZKhjyrtYjHaU="/>
+        <field:display field="reason" id="s_com_source_project_entity_RescueLeave_Reason" object="${rescueleave}" z="8HyFEfDOcE1cMK8ZzNAeKKuPRDk="/>
+        <field:display field="approveByFinance_Department" id="s_com_source_project_entity_RescueLeave_ApproveByFinance_Department" object="${rescueleave}" z="I7I1CImB/PuY7zITBuRYstEqIOo="/>
+        <field:display field="approveByManager" id="s_com_source_project_entity_RescueLeave_ApproveByManager" object="${rescueleave}" z="avgi2wkhFiOpRvd3czXVWDyzMR8="/>
+    </page:show>
+</div>
